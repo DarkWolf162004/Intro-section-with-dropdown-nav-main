@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <!-- GOOLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT-AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/1f2dac61b3.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- JAVASCRIPT -->
+    <script src="js/script.js" defer></script>
+
+    <!-- TITLE -->
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body id="page-content">
+    <main>
+      <img
+        src="./images/image-hero-mobile.png"
+        alt="background image mobile"
+        class="mobile-background"
+      />
+      <div class="container">
+        <div class="navigation">
+          <div class="nav-brand"><img src="./images/logo.svg" alt="company logo" /></div>
+          <button class="navbar-toggler" id="nav-menu-toggle">
+            <img
+              src="./images/icon-menu.svg"
+              alt="burger menu icon"
+              class="menu-closed"
+            />
+            <img
+              src="./images/icon-close-menu.svg"
+              alt="cross menu icon"
+              class="menu-open"
+            />
+          </button>
+          <ul class="list-items" id="nav-menu">
+            <li class="list-item" id="features-toggle">
+              <a href="#">Features</a>
+              <img
+                id="f-down"
+                class="down-arrow"
+                src="./images/icon-arrow-down.svg"
+                alt="Down Arrow"
+              />
+            </li>
+            <ol class="sub-menu features flow-content" id="features-menu">
+              <li class="sub-item">
+                <img src="./images/icon-todo.svg" class="sub-img" alt="todo icon" />
+                <a href="#">Todo List</a>
+              </li>
+              <li class="sub-item">
+                <img
+                  src="./images/icon-calendar.svg"
+                  class="sub-img"
+                  alt="calendar icon"
+                />
+                <a href="#">Calender</a>
+              </li>
+              <li class="sub-item">
+                <img
+                  src="./images/icon-reminders.svg"
+                  class="sub-img"
+                  alt="reminders icon"
+                />
+                <a href="#">Reminders</a>
+              </li>
+              <li class="sub-item">
+                <img
+                  src="./images/icon-planning.svg"
+                  class="sub-img"
+                  alt="planning icon"
+                />
+                <a href="#">Planning</a>
+              </li>
+            </ol>
+
+            <li class="list-item" id="company-toggle">
+              Company
+              <img
+                id="c-down"
+                class="down-arrow"
+                src="./images/icon-arrow-down.svg"
+                alt="Down Arrow"
+              />
+            </li>
+            <ol class="sub-menu company flow-content" id="company-menu">
+              <li class="sub-item"><a href="#">History</a></li>
+              <li class="sub-item"><a href="#">Our Team</a></li>
+              <li class="sub-item"><a href="#">Blog</a></li>
+            </ol>
+
+            <li class="list-item"><a href="#">Careers</a></li>
+            <li class="list-item"><a href="#">About</a></li>
+          </ul>
+          <ul class="list-items-auth" id="nav-menu-auth">
+            <div class="auth flow-content">
+              <li class="list-item"><a href="#">Login</a></li>
+              <li class="list-item"><a href="#">Register</a></li>
+            </div>
+          </ul>
+        </div>
+
+        <h1 class="main-title">Make remote work</h1>
+        <p class="main-content">
+          Get your team in sync, no matter your location. Streamline processes, create
+          team rituals, and watch productivity soar.
+        </p>
+        <a href="#" class="btn-learn-more">Learn more</a>
+        <div class="clients">
+          <img src="./images/client-databiz.svg" class="svg-biz" alt="client databiz" />
+          <img
+            src="./images/client-audiophile.svg"
+            class="svg-audph"
+            alt="client audiophile"
+          />
+          <img src="./images/client-meet.svg" class="svg-meet" alt="client meet" />
+          <img src="./images/client-maker.svg" class="svg-maker" alt="client maker" />
+        </div>
+        <img
+          src="./images/image-hero-desktop.png"
+          alt="background image for desktop"
+          class="desktop-background"
+        />
+
+      </div>
+    </main>
+  </body>
+</html>
+
+
